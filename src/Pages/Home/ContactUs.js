@@ -13,11 +13,11 @@ const ContactUs = () => {
                     <h2 className='text-3xl text-white'>Stay connected with us</h2>
                 </div>
                 <div className='grid grid-flow-row auto-rows-max gap-3 justify-center'>
-                    <input type="text" placeholder="Email Address" class="input input-bordered input-sm w-full max-w-xs" />
+                    <input type="text" placeholder="Email Address" className="input input-bordered input-sm w-full max-w-xs" />
 
-                    <input type="text" placeholder="Subject" class="input input-bordered input-md w-full max-w-xs" />
+                    <input type="text" placeholder="Subject" className="input input-bordered input-md w-full max-w-xs" />
 
-                    <input type="text" placeholder="Your message" class="input input-bordered input-lg w-full max-w-xs" />
+                    <input type="text" placeholder="Your message" className="input input-bordered input-lg w-full max-w-xs" />
 
                 </div>
                 <div className='text-center m-3'>
