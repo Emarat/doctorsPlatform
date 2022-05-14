@@ -7,20 +7,22 @@ const ContactUs = () => {
         <section className='my-28' style={{
             background: `url(${appointment})`
         }}>
-            <div className='text-center mb-3'>
-                <h4 className="text-primary font-bold text-xl">Contact Us</h4>
-                <h2 className='text-3xl'>Stay connected with us</h2>
-            </div>
-            <div className='grid grid-flow-row auto-rows-max gap-3 justify-center'>
-                <input type="text" placeholder="Email Address" class="input input-bordered input-sm w-full max-w-xs" />
+            <div className='py-5'>
+                <div className='text-center mb-3'>
+                    <h4 className="text-primary font-bold text-xl">Contact Us</h4>
+                    <h2 className='text-3xl text-white'>Stay connected with us</h2>
+                </div>
+                <div className='grid grid-flow-row auto-rows-max gap-3 justify-center'>
+                    <input type="text" placeholder="Email Address" class="input input-bordered input-sm w-full max-w-xs" />
 
-                <input type="text" placeholder="Subject" class="input input-bordered input-md w-full max-w-xs" />
+                    <input type="text" placeholder="Subject" class="input input-bordered input-md w-full max-w-xs" />
 
-                <input type="text" placeholder="Your message" class="input input-bordered input-lg w-full max-w-xs" />
+                    <input type="text" placeholder="Your message" class="input input-bordered input-lg w-full max-w-xs" />
 
-            </div>
-            <div className='text-center m-3'>
-                <PrimaryButton>Submit</PrimaryButton>
+                </div>
+                <div className='text-center m-3'>
+                    <PrimaryButton>Submit</PrimaryButton>
+                </div>
             </div>
         </section>
     );
